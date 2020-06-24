@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Open Trivia</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/quiz.css">
+  </head>
+  <body>
+      <div id="quizGame" class="background-image">
+        <div class="body-quiz">
+          <div id="quiz" class="container-quiz">
+            <div class="quiz-questionBox">
+              <div class="quiz-styleBox border-box"></div>
+              <div class="quiz-styleBox1 border-box"></div>
+              <div class="quiz-styleBox2 border-box"><h4 id="question" class="quiz-question"></h4></div>
+            </div>
+            <div class="quiz-options">
+              <div class="quiz-option">
+                <p class="options" id="answer1"></p>
+              </div>
+              <div class="quiz-option">
+                <p class="options" id="answer2"></p>
+              </div>
+              <div class="quiz-option">
+                <p class="options" id="answer3"></p>
+              </div>
+              <div class="quiz-option">        
+                <p class="options" id="answer4"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script src="quiz.js"></script>
+  </body>
+</html>

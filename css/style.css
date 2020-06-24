@@ -1,0 +1,29 @@
+*{
+  border: none!important;
+}
+.icon-size {
+  font-size: 2rem;
+}
+
+.color-card {
+  background: #FFEEDD!important;
+}
+
+.bg-pink {
+  background: #FFD8BE;
+}
+.card-text-color {
+  color: #698996;
+}
+.title-color {
+  color: #413C58;
+}
+.card-title {
+  user-select: none; 
+}
+.options:hover {
+  cursor: pointer;
+  box-shadow: 0 0.4rem 1.4rem 0 rgba(86, 185, 235, 0.5);
+  transform: translateY(-0.1rem);
+  transition: transform 150ms;
+}
